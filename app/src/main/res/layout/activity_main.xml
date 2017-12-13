@@ -13,7 +13,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:textColor="@android:color/white"
+        android:text="Zabrze"
         android:textSize="30dp" />
 
     <ImageView
@@ -25,6 +26,7 @@
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
         android:text="30 stopni celsjusza"
         android:textSize="17dp" />
 
@@ -32,6 +34,7 @@
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
         android:text="Pamiętaj o filtrze"
         android:textSize="17dp" />
 
@@ -39,7 +42,11 @@
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
         android:text="Podaj mijesce"
         android:textSize="17dp" />
+    <AutoCompleteTextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
