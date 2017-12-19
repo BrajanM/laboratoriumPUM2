@@ -14,7 +14,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
-        android:text="Zabrze"
+        android:text="@string/Polecenie"
+        android:id="@+id/Tekst"
         android:textSize="30dp" />
 
     <ImageView
@@ -43,19 +44,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
-        android:text="Podaj mijesce"
-        android:textSize="17dp" />
+        android:text="Podaj miejsce:"
+        android:textSize="18dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/Edit"
+        android:backgroundTint="@android:color/black"
+        android:singleLine="true"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:ellipsize="start"
         />
 
     <Button
         android:layout_width="260dp"
         android:layout_height="70dp"
         android:backgroundTint="#FFFFFF"
-        android:text="ZMIEŃ MIEJSCE"
+        android:id="@+id/Pobierz"
+        android:text="@string/Pobierz"
         android:textColor="@android:color/holo_blue_bright"/>
 
     <Button

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Aplikacja Pogodowa</string>
+    <string name="Polecenie">Zabrze</string>
+    <string name="Pobierz">ZMIEŃ MIEJSCE</string>
 </resources>
