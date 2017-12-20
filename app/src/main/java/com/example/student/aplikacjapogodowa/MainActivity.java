@@ -1,5 +1,6 @@
 package com.example.student.aplikacjapogodowa;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -24,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Button pobierz;
 
+    private Button zmien;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,7 +39,9 @@ public class MainActivity extends AppCompatActivity {
 
         tekst = (TextView)findViewById(R.id.Tekst);
 
+        zmien=(Button)findViewById(R.id.Zmien);
 
+        zmien.setOnClickListener(onClick2);
     }
     private View.OnClickListener onClick=new View.OnClickListener()
     {
@@ -44,6 +49,15 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View view)
         {
             tekst.setText(edit.getText().toString());
+        }
+    };
+    private View.OnClickListener onClick2=new View.OnClickListener()
+    {
+        @Override
+        public void onClick(View view)
+        {
+            Intent intent = new Intent(MainActivity.this,Main2Activity.class);
+              MainActivity.this.startActivity(intent);
         }
     };
 

@@ -7,7 +7,7 @@
     android:background="@color/colorPrimary"
     android:gravity="center"
     android:orientation="vertical"
-    tools:background="@android:color/holo_blue_bright"
+    tools:background="@android:color/holo_blue_light"
     tools:context="com.example.student.aplikacjapogodowa.MainActivity">
 
     <TextView
@@ -70,6 +70,7 @@
         android:layout_width="280dp"
         android:layout_height="70dp"
         android:backgroundTint="#FFFFFF"
+        android:id="@+id/Zmien"
         android:text="POKAŻ LISTĘ DOSTĘPNYCH MIEJSC"
         android:textColor="@android:color/holo_blue_bright"/>
 
