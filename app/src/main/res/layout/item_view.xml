@@ -4,19 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:background="@color/colorPrimary"
     android:gravity="center"
     android:orientation="vertical"
-    tools:background="@android:color/holo_blue_light"
-    tools:context="com.example.student.aplikacjapogodowa.Main2Activity">
+    tools:background="@android:color/holo_blue_light">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
-        android:id="@+id/recycler_view"
+        android:id="@+id/place_name"
         android:textSize="20dp"
         />
-
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:id="@+id/temperature"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:id="@+id/information"
+        android:textSize="20dp"
+        />
 </LinearLayout>
