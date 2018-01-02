@@ -3,4 +3,6 @@
     <string name="Polecenie">Zabrze</string>
     <string name="Pobierz">ZMIEŃ MIEJSCE</string>
     <string name="Zmien">POKAŻ LISTĘ DOSTĘPNYCH MIEJSC</string>
+    <string name="alert_title">Jesteś pewnien ze to dobry wybór ?</string>
+    <string name="alert_dialog">Moze wybierzesz jeszcze raz?</string>
 </resources>
